@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consulta el clima de la ciudad ingresada">
+    <meta name="author" content="Cristian Ariel Baez">
+    <title>Cristian Ariel Baez, Cátedra PWA</title>
+    <link rel="icon" href="img/favicon.svg" type="image/svg" sizes="96x96">
+    <link rel="stylesheet" href="css/miStyle.css">
+</head>
+<body>
+    <header>
+        <h1>C<span>o</span>ol Weather</h1>
+    </header>
+    <section class="top-banner">
+        <aside>
+          <form>
+            <input type="text" placeholder="Ingresa una ciudad" autofocus>
+            <button type="submit">SUBMIT</button>
+            <span class="msg"></span>
+          </form>
+        </aside>
+      </section>
+      <section class="ajax-section">
+        <div class="container">
+         <div class="grid-1"></div>
+         <div class="grid-2"></div>
+         <figure class="map"></figure>
+       </div>
+      </section>
+<script src="js/main.js"></script>
+</body>
+</html>
